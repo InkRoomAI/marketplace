@@ -20,9 +20,7 @@
   "featured": false,
   "install": {
     "args": [
-      "InkRoom-AI/inkroom-client",
-      "--skill",
-      "inkroom-prompts"
+      "https://github.com/InkRoom-AI/inkroom-client/tree/main/skills/inkroom-prompts"
     ],
     "notes": "Free prompt search and text optimization only. No public Remote MCP endpoint or npm-registry publication is claimed. Version 0.1.0-preview.3 is distributed by GitHub Releases."
   }
