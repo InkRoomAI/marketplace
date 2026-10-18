@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/mcp.schema.json",
+  "id": "inkroom-prompts",
+  "type": "mcp",
+  "name": "InkRoom Prompts",
+  "tagline": "Free image-prompt search with paired examples and text optimization, without an API key.",
+  "description": "Search public image prompts with their paired original library examples, or improve an idea into an image prompt. Free service subject to shared limits; no login, API key or MCP Token. Does not generate images or use paid InkRoom image credits. Requires Node.js 20.3+. The dedicated service is https://prompts.inkroom.ai; this is separate from paid inkroom.",
+  "author": {
+    "name": "InkRoom",
+    "url": "https://inkroom.ai"
+  },
+  "homepage": "https://inkroom.ai/tools/prompts",
+  "repo": "https://github.com/InkRoom-AI/inkroom-client/tree/main/prompts",
+  "tags": [
+    "creative",
+    "productivity"
+  ],
+  "license": "MIT",
+  "verified": false,
+  "featured": false,
+  "install": {
+    "args": [
+      "inkroom-prompts",
+      "--",
+      "npx",
+      "-y",
+      "--package",
+      "https://github.com/InkRoom-AI/inkroom-client/releases/download/prompts-v0.1.0-preview.3/inkroom-prompts-0.1.0-preview.3.tgz",
+      "inkroom-prompts"
+    ],
+    "notes": "Free prompt search and text optimization only. No public Remote MCP endpoint or npm-registry publication is claimed. Version 0.1.0-preview.3 is distributed by GitHub Releases."
+  }
+}
